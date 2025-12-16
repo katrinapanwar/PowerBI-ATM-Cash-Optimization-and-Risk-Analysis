@@ -184,3 +184,5 @@ Highlights **structural inefficiencies**, not seasonal noise.
 - SQL-driven transformations
 - Executive-ready dashboard storytelling
 - Optimization-focused analytics thinking
+
+![Atm Optimization Analysis](atm-optimization-analysis.png)
