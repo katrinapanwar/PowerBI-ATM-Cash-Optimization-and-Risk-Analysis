@@ -45,6 +45,17 @@ Includes:
 ### 1️⃣ Data Loading (Python → MySQL)
 A Python script loads the CSV into MySQL.
 
+## 📐 Data Assumptions
+
+To reflect realistic banking behavior, the analysis assumes:
+- Higher ATM usage on weekends
+- Reduced activity during rainy and snowy weather
+- Peak transactions during daytime and afternoon hours
+- Higher demand in malls and bank branches
+- Peak cash activity in 2023 followed by a decline
+
+These assumptions were applied consistently across the dataset and are documented for transparency.
+
 ## 📊 Dashboard & Visual Analysis
 
 ### 🔢 KPI Summary (Top Row)
@@ -184,5 +195,11 @@ Highlights **structural inefficiencies**, not seasonal noise.
 - SQL-driven transformations
 - Executive-ready dashboard storytelling
 - Optimization-focused analytics thinking
+
+## ⚠️ Limitations
+- Dataset is simulated and may not capture all real-world anomalies
+- Forecasting is directional, not predictive modeling
+- External factors such as regional events are not included
+
 
 ![Atm Optimization Analysis](atm-optimization-analysis.png)
